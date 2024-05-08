@@ -1,0 +1,28 @@
+.acv {
+  color: black;
+  text-shadow: 10px 10px 10 10px rgb(0, 0, 0);
+}
+.layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  margin: 0 auto;
+  text-overflow: clip;
+  width: 30rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+.img {
+  height: 30rem;
+}
+.shadow {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
