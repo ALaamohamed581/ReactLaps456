@@ -74,10 +74,6 @@ export default function AllMoviesComponent() {
         <button onClick={() => navigate(1)} className="btn btn-info">
           next bage &rarr
         </button>
-
-        <button onClick={() => navigate(-1)} className="btn btn-info">
-          previous page bage &larr
-        </button>
       </div>
     </>
   );
